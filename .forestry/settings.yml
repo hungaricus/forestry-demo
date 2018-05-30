@@ -4,10 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 collections:
-  _posts:
-    default_front_matter_template: post
   _projects:
     default_front_matter_template: project
+  _posts:
+    default_front_matter_template: post
   _people:
     default_front_matter_template: person
 upload_dir: uploads
